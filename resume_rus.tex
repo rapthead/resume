@@ -1,0 +1,173 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+\usepackage{datenumber,fp}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+
+\usepackage[scale=0.75]{geometry}
+\setlength{\hintscolumnwidth}{2cm}
+%\setlength{\makecvtitlenamewidth}{10cm}
+
+%----------------------------------------------------------------------------------------
+% \newcounter{dateone}%
+% \newcounter{datetwo}%
+% \setmydatenumber{dateone}{1990}{01}{01}%
+% \setmydatenumber{datetwo}{\the\year}{\the\month}{\the\day}%
+% \FPsub\result{\thedatetwo}{\thedateone}
+% \FPdiv\myage{\result}{365.2425}
+% \myage
+%----------------------------------------------------------------------------------------
+\firstname{Павел}
+\familyname{Грибанов}
+
+\title{Инженер-программист}
+\extrainfo{
+    30 Лет
+    \makenewline
+    Не женат, детей нет
+}
+\address{Челябинск}{}
+\mobile{(963) 472 58 36}
+\email{rapthead@gmail.com}
+\homepage{https://github.com/rapthead}
+\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+%----------------------------------------------------------------------------------------
+
+\AtBeginDocument{
+    \hypersetup{colorlinks,urlcolor=color1}
+}
+\begin{document}
+
+\makecvtitle
+
+%----------------------------------------------------------------------------------------
+\section{Образование}
+
+\cventry{2006 -- 2011}{Электронная коммерция, Прикладная информатика (по областям)}{Филиал Московской финансово-юридической академии}{Орск}{\textit{Средний балл -- 4.6}}{}
+%\cventry {years}{degree/job title}{institution/employer}{localization}{grade}{description}
+
+%----------------------------------------------------------------------------------------
+\section{Опыт}
+\subsection{Профессиональная деятельность}
+\cventry{\mbox{Июнь 2017} – \mbox{наст. время}}{Инженер-программист}{}{Челябинск}{}{
+Backend разработчик node.js/typescript.
+Проектирование и разработка сервиса деловой коммуникации. Проект не опубликован, находится в стадии разработки.
+Сервис представляет собой RIA совместной работы в режиме реального времени.
+\newline{}
+\newline{}
+\begin{itemize}
+    \item разработка бэкенда (nodejs, graphql, aws, heroku, микросервисы, postgresql, redis, infrastructure as a code, CI, TDD, IoC);
+    \item code review, консультация фронтенд-разработчиков;
+    \item работа по методологиям Agile/Scrum;
+\end{itemize}
+}
+
+\cventry{\mbox{Июнь 2016} – \mbox{Июнь 2017}}{Инженер-программист}{}{Челябинск}{}{
+Fullstack разработчик React/Redux + Python/Flask.
+Проектирование и разработка сервиса деловой коммуникации. Проект не опубликован, находится в стадии разработки.
+Сервис представляет собой RIA совместной работы в режиме реального времени.
+}
+
+\cventry{\mbox{Ноя. 2015} – \mbox{Май 2016}}{Старший программист}{\httplink[PRодвижение]{http://www.web-prural.ru/}}{Челябинск}{}{
+Разработка web-сайтов и сервисов (full-stack)
+\newline{}
+\newline{}
+Разработка и поддержка внутренних сервисов и проектов организации (python/django/backbone).
+Сервисы seo аналитики, портал лидогенерации.}
+
+\cventry{\mbox{Янв. 2013} – \mbox{Нояб. 2015}}{Инженер-программист}{\httplink[ВЦ СофтСервис]{http://www.softservis.ru/}}{Челябинск}{}{
+Full stack разработка web-сайтов (bitrix/php)
+\newline{}
+\newline{}
+Основные достижения:
+\begin{itemize}
+    \item Наиболее крупные проекты:
+    \begin{itemize}
+        \item \httplink{rossimvol.ru} - Разработка интернет-магазина для розничных покупателей и дилерской площадки
+        \item \httplink{ilovemum.ru} - Редизайн, реализация адаптивного представления, рефакторинг интернет-магазина производителя одежды 
+        \item Участие в разработке партнерской площадки производителя шин “Кама”, поддержка legacy-кода
+    \end{itemize}
+    \item Поддержка корпоративного портала организации
+    \item Администрирование web-серверов
+\end{itemize}}
+
+\cventry{\mbox{Мар. 2011} – \mbox{Дек. 2011}}{Главный специалист сектора автоматизации}{управлении социальной защиты населения администрации города Орска}{Орск}{}{
+    Поддержка сети организации и парка компьютеров.}
+%------------------------------------------------
+
+\subsection{Другая занятость}
+\cventry{\mbox{Дек. 2011} – \mbox{Дек. 2012}}{служба в Вооруженных Силах Российской Федерации}{}{}{}{}
+
+%----------------------------------------------------------------------------------------
+\section{Профессиональные навыки}
+\subsection{Языки программирования}
+\cvitem{}{
+    \cvdoubleitem{JavaScript}{отлично}{Python}{хорошо}
+    \cvdoubleitem{PHP}{хорошо}{JAVA}{средне}
+    \cvitem{C++}{средне}
+    %\begin{itemize}
+    %    \item[Perl] отличное знание
+    %    \item[PHP] хорошее знание
+    %    \item[JavaScript] средний уровень
+    %    \item[Python] средний уровень
+    %    \item[C++] среднее теоретическое знание
+    %\end{itemize}
+}
+
+\subsection{JS}
+\cvitem{}{
+    %\cvdoubleitem{Верстка}{HTML, CSS}{Препроцессоры}{Less, Sass}
+    %\cvdoubleitem{Визуальные фреймворки}{Twitter Bootstrap, Zurb Foundation}{Системы сборки}{Grunt, Gulp}
+    %\cvitem{Библиотеки}{JQuery, AngularJs, Require JS}
+    \begin{itemize}
+        \item React/Redux, Backbone.js
+        \item ES6, typescript
+        \item mocha, chai
+        \item Webpack
+    \end{itemize}
+}
+
+\subsection{DevOps}
+\cvitem{}{
+    \begin{itemize}
+        \item CI/CD
+        \item AWS
+        \item Infrastructure as Code
+        \item Microservices
+        \item Linux administration
+    \end{itemize}
+}
+
+% \subsection{Другое}
+% \cvitem{}{
+%     \begin{itemize}
+%         %\item Глубокое знание и большой опыт работы CMS Битрикс (обмен с 1с, композитный сайт, знание API и методов разработки модулей)
+%         \item Глубокое знание ОС GNU/Linux (администрирование, использование, разработка, bash-скриптинг) - опыт более 8 лет
+%         \item Умение разбираться в чужом коде
+%         \item Понимание и следование парадигме ООП
+%         \item Знание систем контроля версий git, mercurial
+%         \item Опыт использования системы управления задачами redmine
+%         \item Чту pep8, умею автоматический деплой и юнит-тесты
+%     \end{itemize}
+% }
+
+%----------------------------------------------------------------------------------------
+\section{Языки}
+
+\cvitemwithcomment{Русский}{Родной}{}
+\cvitemwithcomment{English}{intermediate}{}
+
+%----------------------------------------------------------------------------------------
+% \section{Интересы}
+% 
+% \renewcommand{\listitemsymbol}{-~}
+% 
+% \cvlistdoubleitem{Горные лыжи}{Компьютерное \textquotedblleftжелезо\textquotedblright}
+% \cvlistdoubleitem{Музыка}{Gnu/Linux}
+% \cvlistdoubleitem{Free Software}{}
+
+\end{document}
